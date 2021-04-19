@@ -1,0 +1,14 @@
+{
+    "name": "Setting extension",
+    "description": "",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "options_page": "./options.html",
+    "browser_action": {
+        "defatult_popup": "./popup.html"
+    },
+    "permissions": ["tabs", "https://www.facebook.com/"]
+}
